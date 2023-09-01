@@ -11,7 +11,7 @@ h2{
 li{
     list-style: none;
 }
-/* ... Ваши стили ... */
+
 
 .link {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -32,15 +32,9 @@ li{
 
 
   .column:hover .link {
- /* Увеличение размера фонового изображения при наведении */
-    transform: scale(1.01); /* Увеличение размера ссылки при наведении */
-  }
+ 
+    transform: scale(1.01); 
   
-  /* ... Дополнительные стили ... */
-  
-  
-/* ... остальные стили ... */
-
 .column-container {
     display: flex;
     justify-content: center;
@@ -54,9 +48,8 @@ li{
     flex: 1;
     width: 33.33%;
     height: 100%;
-     /* Добавьте отступы для разделения колонок */
     box-sizing: border-box;
-    display: flex; /* Добавьте flex-свойство для выравнивания содержимого */
-    justify-content: center; /* Центрируем содержимое горизонтально */
-    align-items: center; /* Центрируем содержимое вертикально */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
