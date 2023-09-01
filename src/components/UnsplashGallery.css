@@ -1,8 +1,3 @@
-/* ... остальные стили ... */
-
-/* ... остальные стили ... */
-
-/* ... остальные стили ... */
 
 body {
     margin: 0;
@@ -25,7 +20,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     width: 3500px;
-    height: 600px; /* Фиксированная высота контейнера */
+    height: 600px; 
     overflow: hidden;
     
   }
@@ -38,9 +33,7 @@ body {
     background-repeat: no-repeat;
     transition: transform 0.3s ease-in-out;
   }
-  
-  /* ... остальные стили ... */
-  
+
   .image{
     border-radius: 10px;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -49,10 +42,8 @@ body {
   .image-outer-container {
     overflow-x: auto;
     overflow: hidden;
-    
-/* Включаем горизонтальный скролл для этого контейнера */
     width: 100%;
-     /* Занимает всю ширину, чтобы скрыть вертикальный скролл */
+    
   }
   
   .roomTitle{
