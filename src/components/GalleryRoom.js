@@ -7,8 +7,8 @@ import rooms from './api'
 
 
 function getRandomPosition(existingPositions) {
-  const maxX = 3500 - 250; // Ширина контейнера минус ширина изображения
-  const maxY = 600 - 350; // Высота контейнера минус высота изображения
+  const maxX = 3500 - 250; 
+  const maxY = 600 - 350;
 
   let newPosition;
   do {
@@ -38,7 +38,7 @@ const UnsplashGallery = () => {
   useEffect(() => {
     const fetchArtImages = async () => {
       try {
-        console.log('Selected room:', room); // Debug output to check the value of 'room'
+        console.log('Selected room:', room); 
         const selectedRoom = rooms.find(r => r.id === parseInt(room));
 
         if (!selectedRoom) {
@@ -52,7 +52,7 @@ const UnsplashGallery = () => {
             per_page: 50,
             page: 1,
             orientation: 'portrait',
-            query: selectedRoom.query, // Use the query from the selected room
+            query: selectedRoom.query, 
           }
         });
         console.log('Selected room query:', selectedRoom.query);
@@ -138,8 +138,8 @@ const UnsplashGallery = () => {
               top: '46%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              width: '37%',   // Уменьшение ширины изображения
-              height: '90%',  // Уменьшение высоты изображения
+              width: '37%',  
+              height: '90%', 
               zIndex: 1000,
             }}
           />
